@@ -9,7 +9,7 @@ public class ParameterHolder {
     @Value("${cloud-client}")
     private String cloudClient;
 
-//    @Value("${one-little-parameter}")
+    @Value("${one-little-parameter}")
     private String oneLittleParameter;
 
     public String getCloudClient() {
